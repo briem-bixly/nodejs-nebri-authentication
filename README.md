@@ -44,6 +44,7 @@ var token_client = new nebri_auth.NebriOAuthClient('instance_name', 'consumer_ke
 
 <h2>Public Function</h2>
 All classes have the same function with the same parameters.
+
 <strong>api_request</strong>
 - api_module: the name of the api module stored on your NebriOS instance
 - view_name: the name of the target function contained in the given api module
