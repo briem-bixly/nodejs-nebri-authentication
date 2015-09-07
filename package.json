@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-nebri-authentication",
+  "version": "0.0.0",
+  "description": "A simple and easy to use package for making authenticated Nebri backend requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briem-bixly/nodejs-nebri-authentication.git"
+  },
+  "keywords": [
+    "nebrios",
+    "nodejs"
+  ],
+  "author": "Brie Marvin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/briem-bixly/nodejs-nebri-authentication/issues"
+  },
+  "dependencies": {
+    "nodejs-nebri": "git://github.com/briem-bixly/nodejs-nebri"
+  }
+}
