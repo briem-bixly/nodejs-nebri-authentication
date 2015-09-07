@@ -14,7 +14,7 @@ npm install briem-bixly/nodejs-nebri-authentication --save
 <h2>Requirements</h2>
 This package requires https://github.com/briem-bixly/nodejs-nebrios.
 
-NOTE: Before using any classes and associated functions in this package, you must include nebrios-authentication in your Nebri Instance and set up any authentication methods you would like to utilize. See https://github.com/briem-bixly/nebrios-authentication/blob/master/README.md for more information.
+<strong>NOTE</strong>: Before using any classes and associated functions in this package, you must include nebrios-authentication in your Nebri Instance and set up any authentication methods you would like to utilize. See https://github.com/briem-bixly/nebrios-authentication/blob/master/README.md for more information.
 
 <h2>Public Classes</h2>
 <strong>NebriTokenClient</strong><br>
