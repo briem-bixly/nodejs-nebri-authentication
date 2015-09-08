@@ -12,9 +12,7 @@ npm install briem-bixly/nodejs-nebri-authentication --save
 - including --save at the end will install this component and add it as a dependency in your app's package.json
 
 <h2>Requirements</h2>
-This package requires https://github.com/briem-bixly/nodejs-nebrios.
-
-<strong>NOTE</strong>: Before using any classes and associated functions in this package, you must include nebrios-authentication in your Nebri Instance and set up any authentication methods you would like to utilize. See https://github.com/briem-bixly/nebrios-authentication/blob/master/README.md for more information.
+Before using any classes and associated functions in this package, you must include nebrios-authentication in your Nebri Instance and set up any authentication methods you would like to utilize. See https://github.com/briem-bixly/nebrios-authentication/blob/master/README.md for more information.
 
 <h2>Public Classes</h2>
 <strong>NebriTokenClient</strong><br>
@@ -26,6 +24,7 @@ var token_client = new nebri_auth.NebriTokenClient('instance_name', 'token');
 - instance name is your Nebri instance name. i.e. https://<strong>instance_name</strong>.nebrios.com
 - your token must be generated on your Nebri instance using https://github.com/briem-bixly/nebrios-authentication
 
+<br>
 <strong>NebriBasicClient</strong>
 ```
 var nebri_auth = require('nodejs-nebri-authentication');
@@ -33,6 +32,7 @@ var token_client = new nebri_auth.NebriBasicClient('instance_name', 'username', 
 ```
 - before using this method, a username and password combo should be saved to your Nebri instance using https://github.com/briem-bixly/nebrios-authentication
 
+<br>
 <strong>NebriOAuthClient</strong>
 ```
 var nebri_auth = require('nodejs-nebri-authentication');
